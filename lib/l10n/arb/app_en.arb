@@ -1,0 +1,13 @@
+{
+  "test_quantity_bonus_string": "{quantity_issue, plural, =1{{quantity_issue} quantity to collect {bonus} points} other{{quantity_issue} quantities to collect {bonus} points}}",
+  "@test_quantity_bonus_string": {
+    "placeholders": {
+      "quantity_issue": {
+        "type": "int"
+      },
+      "bonus": {
+        "type": "int"
+      }
+    }
+  }
+}
